@@ -25,7 +25,7 @@ $(document).ready(function(){
 	});
 	});
 //virgola prezzo carrello
-	$("#Cart .itemPrice").each(function(){
+	$(".itemPrice").each(function(){
 		var prezzoVecchio=$(this).text();
 		var prezzoNuovo=prezzoVecchio.replace(",","");
 		$(this).text(prezzoNuovo);
