@@ -1,6 +1,4 @@
-<script type="text/javascript">
-            
-            //Configurazione generale di ogni filtro
+//Configurazione generale di ogni filtro
             ProductFilter.defaultConfig = {
                 fulltextSearchEnabled: true,    //server ad abilitare la ricerca testuale (opzionale, di default false)
                 filters:[                       // elenco filtri
@@ -27,5 +25,3 @@
                 translations["button.ecommerce.product-filter.filter"]="Filtra";
                 translations["label.ecommerce.product-filter.no_results"]="Nessun prodotto corrispondente ai criteri di ricerca";
             }
-
-    </script>
