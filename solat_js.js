@@ -1,5 +1,5 @@
 <!--submenu scheda prodotto-->
 $(document).ready(function(){
-		$(".parent-18 .container").append($("#submenu").remove());
+		$(".parent-18 #breadcrumbs").after($("#submenu").remove());
 		$("#submenu").show();
 	});
