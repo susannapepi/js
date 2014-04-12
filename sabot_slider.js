@@ -29,7 +29,7 @@ var tpj=jQuery;
 							touchenabled:'on',
 							pauseOnRollOverThumbs:'on',
 							pauseOnRollOverMain:'off',
-							preloadedSlides:2,							
+							preloadedSlides:3,							
 							
 							timer:7,
 							
