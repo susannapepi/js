@@ -2,5 +2,6 @@ $(document).ready(function(){
   
   //cambio il testo del pulsante invia
   
-  var nuovoTesto="Richiedi Informazioni";
-  $(".page-type-6 .bform button").html(nuovoTesto);
+$('.page-type-6 #invia').html(function() {
+    return $(this).text().replace('Invia', 'Richiedi Informazioni');
+});
