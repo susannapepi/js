@@ -296,14 +296,14 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 
 
 /*footer*/
-.container .footer_row {
+.container .footer-row {
 	background-color:#2a2a2a;
 	padding-top:50px;
 	padding-bottom:40px;
 	color:#fff;
 }
 
-.container .footer_row a {
+.container .footer-row a {
 	color:#fff;
 }
 
@@ -339,7 +339,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	margin-right:auto;
 }
 
-.container .footer_row {
+.container .footer-row {
 	width:100%;
 }
 
@@ -390,7 +390,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	margin-right:auto;
 }
 
-.container .footer_row {
+.container .footer-row {
 	width:100%;
 }
 
@@ -445,7 +445,7 @@ form table .scf_label .scf_button:hover, form table .scf_label .scf_button:activ
 	margin-right:auto;
 }
 
-.container .footer_row {
+.container .footer-row {
 	width:100%;
 }
 
