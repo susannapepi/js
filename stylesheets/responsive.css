@@ -107,9 +107,6 @@
 
 /*submenu*/
 #menu_2 {
-	padding-left:15px;
-	padding-right:15px;
-	width:25%;
 }
 
 
@@ -155,6 +152,7 @@ h1 {
 /*contenuti*/
 .div_central {
 	margin-bottom:60px;
+	overflow:hidden;
 }
 
 .div_central .abstract {
