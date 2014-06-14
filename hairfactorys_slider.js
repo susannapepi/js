@@ -28,7 +28,7 @@ var tpj=jQuery;
 																																										
 							touchenabled:'on',
 							pauseOnRollOverThumbs:'on',
-							pauseOnRollOverMain:'off',
+							pauseOnRollOverMain:'on',
 							preloadedSlides:3,							
 							
 							timer:7,
