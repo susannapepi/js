@@ -4,5 +4,6 @@ $(document).ready(function(){
 //cambio il testo dell'aggiungi al carrello
   
   $(".product-add-to-cart a span span").text("Prenotazione");
+  $(".bottone_checkout  span span").text("Prenota");
 
 });
