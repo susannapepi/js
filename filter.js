@@ -21,7 +21,7 @@
                 ProductFilter.generate();
 
                 //qui è possibile inserire traduzioni diverse per i test del filtro
-                translations["label.ecommerce.product-filter.fulltext_search"]="Inserisci il nome del prodotto che stai cercando";
-                translations["button.ecommerce.product-filter.filter"]="Cerca";
+                translations["label.ecommerce.product-filter.fulltext"]="Inserisci il nome del prodotto che stai cercando";
+                translations["button.ecommerce.product-filter.filter-buttons"]="Cerca";
                 translations["label.ecommerce.product-filter.no_results"]="Nessun prodotto corrispondente ai criteri di ricerca";
             }
