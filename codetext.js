@@ -3,6 +3,6 @@ $(document).ready(function(){
 
 //cambio il testo dell'aggiungi al carrello
   
-  $(".product_code").text("");
+  $(".product_code").html($(".product_code").html().replace("Codice:",""))
 
 });
