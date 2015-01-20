@@ -1,4 +1,5 @@
 //rimuovo la scritta Codice:
+$("a.more").text("scopri il programma");
 
   $(function() {
   $(".product_code").html($(".product_code").html().replace("Codice:",""));
@@ -6,9 +7,7 @@
 
 //modifico la scritta more info:
 
-  $(function() {
-  $("a.more").text("scopri il programma");
-});
+  
   
 //modifico la scritta prezzo:
 
