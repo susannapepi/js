@@ -1,7 +1,3 @@
-//modifiche testi:
+//rimuovo il testo codice:
   
-$(".bd-last-minute .product_price").html(
-	$(".bd-last-minute .product_price").html().replace("Prezzo:","A partire da:"));
-$(".product_code").html(
-	$(".product_code").html().replace("Codice:",""));
-	$("a.more").text("scopri il programma");
+$(".product_code").html($(".product_code").html().replace("Codice:",""));
