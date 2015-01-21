@@ -3,7 +3,7 @@ function onAddProductSuccess1MS(id , childProductId, quantity,product){
 var destUrl = null;
 var msg = null;
 if (siteLanguage.code == 'it'){
-  destUrl ="/carrello.html";
+  destUrl ="carrello.html";
   msg = "Il prodotto è stato aggiunto al carrello. Verrai reindirizzato al checkout in pochi secondi.";
 }else if(siteLanguage.code == 'en'){
    destUrl ="/cart.html";
