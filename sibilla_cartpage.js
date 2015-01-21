@@ -10,5 +10,5 @@ if (siteLanguage.code == 'it'){
   msg = "The product has been added to cart. You will be redirected to the checkout in a few seconds.";
 }
   alert(msg);
-  window.location=Oms.Util.getLanguageBaseUrl("destUrl");
+  window.location=Oms.Util.getLanguageBaseUrl "destUrl";
 };
