@@ -3,7 +3,7 @@ $(document).ready(function(){
   
 //rimuovo la scritta Codice:
 if ($(".product_code").size()>0){
-$(".product_code").html($("..product_code").html().replace("Codice:",""));
+$(".product_code").html($(".product_code").html().replace("Codice:",""));
 }
 
 //modifico la scritta Prezzo: con A partire da:
