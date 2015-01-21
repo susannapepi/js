@@ -5,5 +5,5 @@ if (siteLanguage.code == 'it'){
    alert("The product has been added to cart. You will be redirected to the checkout in a few seconds.")
 }
 
-window.location=Oms.Util.getLanguageBaseUrl "/carrello.html";
+window.location="/carrello.html";
 };
