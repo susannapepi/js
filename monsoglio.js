@@ -12,7 +12,7 @@ $(".bd-last-minute .product_price").html($(".bd-last-minute .product_price").htm
 }
 
 //modifico la scritta del link più info
-$("a.more").text("scopri il programma");
+$("a.more").text("scopri il programma&nbsp;&raquo;");
 
   
 });
