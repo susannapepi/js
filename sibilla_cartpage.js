@@ -1,4 +1,4 @@
-/*function onAddProductSuccess1MS(id , childProductId, quantity,product){
+function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
 var destUrl = null;
 var msg = null;
@@ -11,10 +11,10 @@ if (siteLanguage.code == 'it'){
 }
   alert(msg);
   window.location=Oms.Util.getLanguageBaseUrl (destUrl);
-};*/
+};
 
-function onAddProductSuccess1MS(id , childProductId, quantity,product){
+/*function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
 alert('Il prodotto è stato aggiunto al carrello. Verrai reindirizzato al checkout in pochi secondi.');
 window.location="/carrello.html";
-};
+};*/
