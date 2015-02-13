@@ -18,7 +18,13 @@ $("a.more").text("scopri il programma »");
 });
 
 //ordinamento prodotti
+var old_onSuccessLoadStore1MS = $.noop;
+if (typeof onSuccessLoadStore1MS == 'function'){
+    old_onSuccessLoadStore1MS = onSuccessLoadStore1MS ;
+}
 function onSuccessLoadStore1MS(){
+
+  		old_onSuccessLoadStore1MS();
 		if (typeof moment != 'function'){
 				var head = document.getElementsByTagName("head")[0] || document.documentElement;
 				var s = document.createElement("script");
