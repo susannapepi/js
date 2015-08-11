@@ -16,7 +16,7 @@ $(document).ready(function(){
   
   //modifico la scritta Prezzo: con a partire da:
   if ($(".product_price, .bd-a-partire-da .product_price").size()>0){
-  $(".product_price, .bd-a-partire-da .product_price").html($(".product_price, .bd-a-partire-da .product_price").html().replace("Prezzo:","a partire da<span>*</span>"));
+  $(".product_price, .bd-a-partire-da .product_price").html($(".product_price, .bd-a-partire-da .product_price").html().replace("Prezzo:","a partire da*"));
 }
 
   
