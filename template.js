@@ -5,8 +5,6 @@ $(document).ready(function(){
   
   $(".product-add-to-cart a span span").text("Crea il tuo sito");
   
-  $(".product_price").text("a partire da*");
-  
   $(".price-vat").text("+ iva");
   
   //per ogni prezzo, modifico il contenuto
