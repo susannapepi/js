@@ -9,7 +9,7 @@ $(document).ready(function(){
   
   //per ogni prezzo, modifico il contenuto
   $(".product-price .price").each(function(){
-      var prezzoVecchio=$(this);
+      var prezzoVecchio=$(this).text();
       var prezzoNuovo=prezzoVecchio.replace(".00","");
       $(this).text(prezzoNuovo);
     });
