@@ -7,6 +7,11 @@ $(document).ready(function(){
   
   $(".price-vat").text("+ iva");
   
+    //modifico la scritta Prezzo: con A partire da:
+  if ($(".product_price, .bd-a-partire-da .product_price").size()>0){
+  $(".product_price, .bd-a-partire-da .product_price").html($(".product_price, .bd-a-partire-da .product_price").html().replace("Prezzo:","a partire da*"));
+  }
+  
   //per ogni prezzo, modifico il contenuto
   $(".product-price .price").each(function(){
       var prezzoVecchio=$(this).text();
