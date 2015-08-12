@@ -24,5 +24,5 @@ $(document).ready(function(){
   //bottone link pagina listino
   function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
-  window.location="http://www.oneminutesite.it/listini.html";
+  window.location="http://cms.oneminutesite.it/public/register.jsp";
   };
