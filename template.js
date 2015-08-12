@@ -5,7 +5,7 @@ $(document).ready(function(){
   
   $(".product-add-to-cart a span span").text("Crea il tuo sito");
   
-  $(".price-vat").text("+ iva");
+  $(".price-vat").text("al mese + iva");
   
   //per ogni prezzo, modifico il contenuto
   $(".product_price .price").each(function(){
@@ -24,5 +24,5 @@ $(document).ready(function(){
   //bottone link pagina listino
   function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
-  window.location="http://cms.oneminutesite.it/public/register.jsp";
+  window.location="http://www.oneminutesite.it/listini.html";
   };
