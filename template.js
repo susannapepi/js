@@ -23,7 +23,7 @@ $(document).ready(function(){
   function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
   alert('Il prodotto è stato aggiunto al carrello. Verrai reindirizzato al checkout in pochi secondi.');
-  window.location="http://www.oneminutesite.it/listini.html;
+  window.location="http://www.oneminutesite.it/listini.html";
   };
   
 });
