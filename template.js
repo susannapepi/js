@@ -21,11 +21,9 @@ $(document).ready(function(){
   
   //bottone link pagina listino
   function onAddProductSuccess1MS(id, childProductId, quantity, product){
-    
-  var destUrl = null;
-  var msg = null;
-  destUrl = "http://cms.oneminutesite.it/public/register.do";
-  window.location=Oms.Util.getLanguageBaseUrl(destUrl);
-};
+
+  alert('Prova');
+  window.location="http://cms.oneminutesite.it/public/register.do";
+  };
   
 });
