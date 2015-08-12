@@ -8,7 +8,7 @@ $(document).ready(function(){
   $(".price-vat").text("+ iva");
   
   //per ogni prezzo, modifico il contenuto
-  $(".product-price .price").each(function(){
+  $(".product_price .price").each(function(){
       var prezzoVecchio=$(this).text();
       var prezzoNuovo=prezzoVecchio.replace(".00","");
       $(this).text(prezzoNuovo);
