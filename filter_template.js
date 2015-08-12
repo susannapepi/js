@@ -1,18 +1,18 @@
 //Configurazione generale di ogni filtro
             ProductFilter.defaultConfig = {
-                fulltextSearchEnabled: true,    //server ad abilitare la ricerca testuale (opzionale, di default false)
+                fulltextSearchEnabled: false,    //server ad abilitare la ricerca testuale (opzionale, di default false)
                 filters:[                       // elenco filtri
                     {
                         tagPrefix: 'c-',        // prefisso usato nei tag per individuare i valori di questo filtro
                         label: 'Colore',     
                         code: 'col',            // codice del filtro, viene messo come "name" nella select del filtro e nel div contenitore del filtro, con questa convenzione: "filter-CODICE". Può essere utile per interventi puntuali su singoli filtri
-                        noSelectedText:'tutti'  // testo da mostrare di default nella tendina (se omesso viene messo a vuoto)
+                        noSelectedText:'tutti i colori'  // testo da mostrare di default nella tendina (se omesso viene messo a vuoto)
                     },
                     {
                         tagPrefix: 'm-',
                         label: 'Categoria',
                         code: 'cat',
-                        noSelectedText:'tutte'
+                        noSelectedText:'tutte le categorie'
                     }
                 ]
             }
