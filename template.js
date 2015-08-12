@@ -19,11 +19,11 @@ $(document).ready(function(){
   $(".product_price, .bd-a-partire-da .product_price").html($(".product_price, .bd-a-partire-da .product_price").html().replace("Prezzo:","a partire da* "));
   }
   
+});
+
   //bottone link pagina listino
   function onAddProductSuccess1MS(id , childProductId, quantity,product){
 
   alert('Il prodotto è stato aggiunto al carrello. Verrai reindirizzato al checkout in pochi secondi.');
   window.location="http://www.oneminutesite.it/listini.html";
   };
-  
-});
