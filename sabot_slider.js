@@ -1,5 +1,5 @@
 var tpj=jQuery;
-				tpj.noConflict();
+				tpj();
 				
 				tpj(document).ready(function() {
 				
