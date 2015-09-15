@@ -1,5 +1,4 @@
 var tpj=jQuery;
-				tpj();
 				
 				tpj(document).ready(function() {
 				
