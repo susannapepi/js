@@ -31,7 +31,7 @@ function onSuccessLoadStore1MS() {
 
 function _sortCatalogProducts() {
 
-    require(['moment'], function() {
+    require(['moment'], function(moment) {
         function getProductId(productItemDiv) {
             productItemDiv = $(productItemDiv);
             var productId = null;
