@@ -1,9 +1,3 @@
-//col reverse
-$(function() {
-	var $col1 = $('.page_id_15 .col-1').clone();
-    $('.page_id_15 .col-1').remove();
-    $col1.insertAfter('.col-2');
-});
 
 //bx slider
 $(document).ready(function(){
