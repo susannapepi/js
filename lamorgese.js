@@ -1,13 +1,13 @@
 (function() {
   if (typeof omsOnInit === 'function') {
     omsOnInit(function() {
-      require(['jquery'], function($) {
+      require(['jquery', 'jquery-ui'], function($) {
         doWork($);
       });
     });
   }
   else if (typeof require === 'function') {
-    require(['jquery'], function($) {
+    require(['jquery', 'jquery-ui'], function($) {
       doWork($);
     });
   }
