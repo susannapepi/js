@@ -3,8 +3,9 @@
 
   if (typeof omsOnInit === 'function') {
     omsOnInit(function() {
-      require(['oms/ecommerce/product-filter', 'oms/translations'], function(ProductFilter, translations) {
+      require(['oms/ecommerce/product-filter', 'oms/translations','oms/ecommerce/store'], function(ProductFilter, translations) {
         doWork(ProductFilter, translations);
+        onSuccessLoadStore1MS();
       });
     });
   }
