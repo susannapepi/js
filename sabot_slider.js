@@ -17,10 +17,10 @@
   
   function doWork($) {
     $(document).ready(function() {
-      if (tpj.fn.cssOriginal != undefined)
-        tpj.fn.css = tpj.fn.cssOriginal;
+      if ($.fn.cssOriginal != undefined)
+        $.fn.css = $.fn.cssOriginal;
 
-      tpj('.bannercontainer').kenburn(
+      $('.bannercontainer').kenburn(
         {
 
           thumbWidth: 100,
