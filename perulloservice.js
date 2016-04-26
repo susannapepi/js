@@ -1,2 +1,2 @@
-$(".product-ttil-advanced").append($("#productGallery");
+$(".product-ttil-advanced").append("#productGallery");
 $("#productGallery").show();
